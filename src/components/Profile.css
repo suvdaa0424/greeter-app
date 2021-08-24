@@ -1,0 +1,38 @@
+.Profile {
+  display: flex;
+  background: rgb(56, 51, 51);
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  margin: 0 auto 10px;
+  max-width: 350px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  background: linear-gradient(45deg, rgb(206, 61, 129), rgb(189, 138, 189));
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.name {
+  color: white;
+  font-weight: bold;
+}
+
+.title {
+  color: darkgray;
+}
